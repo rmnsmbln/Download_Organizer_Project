@@ -1,12 +1,13 @@
 import os
 import shutil
+import time
 
 print("Welcome to Downloads Organizer!")
 print("-------------------------------")
 
 # Define directory path
 downloads_path = os.path.expanduser("~/Downloads")
-print(f"Looking at: {downloads_path}")
+print(f"Looking at: {downloads_path} at {time.ctime()} \n")
 
 # Define file types and their respected folders
 file_types = {
